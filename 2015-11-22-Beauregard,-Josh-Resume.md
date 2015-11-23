@@ -1,18 +1,12 @@
----
-title: Beauregard, Josh Resume
-layout: post
-author: josh.beaureg
-permalink: /beauregard,-josh-resume/
-source-id: 1hqQHDv23SdfxYclQQjE4nwIB0ACBvY_vrZuTg5I8bTw
-published: true
----
-  	 	**Josh Beauregard****'s Resume**
+# Josh Beauregard****'s Resume**
 
+------
 ## Contact:
 
 Email: [josh.beaureg@gmail.com](mailto:josh.beaureg@gmail.com)
 
 Phone: (413) 695-3606
+------
 
 ## Available:
 
