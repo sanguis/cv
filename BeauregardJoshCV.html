@@ -2,643 +2,69 @@
 <html>
   <head>
     <meta charset="utf-8">
-
+    <link rel="stylesheet" type="text/css" media="all" href="./cv.css" />
     <title>Josh Beauregard | DevOps Engeneer</title>
-    <style type="text/css">
-
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-nav,
-section,
-summary {
-  display: block;
-}
-audio,
-canvas,
-video {
-  display: inline-block;
-           *display: inline;
-           *zoom: 1;
-}
-audio:not([controls]) {
-  display: none;
-}
-[hidden] {
-  display: none;
-}
-html {
-  font-size: 100%;
-  -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%;
-}
-html,
-button,
-input,
-select,
-textarea {
-  font-family: sans-serif;
-}
-body {
-  margin: 0;
-}
-a:focus {
-  outline: thin dotted;
-}
-a:hover,
-a:active {
-  outline: 0;
-}
-h1 {
-  font-size: 2em;
-  margin: 0.67em 0;
-}
-h2 {
-  font-size: 1.5em;
-  margin: 0.83em 0;
-}
-h3 {
-  font-size: 1.17em;
-  margin: 1em 0;
-}
-h4 {
-  font-size: 1em;
-  margin: 1.33em 2em;
-  clear:both
-}
-h5 {
-  font-size: 0.83em;
-  margin: 1.67em 0;
-}
-h6 {
-  font-size: 0.75em;
-  margin: 2.33em 0;
-}
-abbr[title] {
-  border-bottom: 1px dotted;
-}
-b,
-strong {
-  font-weight: bold;
-}
-blockquote {
-  margin: 1em 40px;
-}
-dfn {
-  font-style: italic;
-}
-mark {
-  background: #ff0;
-  color: #000;
-}
-p,
-pre {
-  margin: 1em 0;
-}
-pre,
-code,
-kbd,
-samp {
-  font-family: monospace, serif;
-    _font-family: 'courier new', monospace;
-  font-size: 1em;
-}
-pre {
-  white-space: pre;
-  white-space: pre-wrap;
-  word-wrap: break-word;
-}
-q {
-  quotes: none;
-}
-q:before,
-q:after {
-  content: '';
-  content: none;
-}
-small {
-  font-size: 75%;
-}
-sub,
-sup {
-  font-size: 75%;
-  line-height: 0;
-  position: relative;
-  vertical-align: baseline;
-}
-sup {
-  top: -0.5em;
-}
-sub {
-  bottom: -0.25em;
-}
-dl,
-menu,
-ol,
-ul {
-  margin: 1em 0;
-}
-dd {
-  margin: 0 0 0 40px;
-}
-menu,
-ol,
-ul {
-  padding: 0 0 0 40px;
-}
-nav ul,
-nav ol {
-}
-img {
-  border: 0;
-  -ms-interpolation-mode: bicubic;
-}
-svg:not(:root) {
-  overflow: hidden;
-}
-figure {
-  margin: 0;
-}
-form {
-  margin: 0;
-}
-fieldset {
-  border: 1px solid #c0c0c0;
-  margin: 0 2px;
-  padding: 0.35em 0.625em 0.75em;
-}
-legend {
-  border: 0;
-  padding: 0;
-  white-space: normal;
-  *margin-left: -7px;
-}
-button,
-input,
-select,
-textarea {
-  font-size: 100%;
-  margin: 0;
-  vertical-align: baseline;
-  *vertical-align: middle;
-}
-button,
-input {
-  line-height: normal;
-}
-button,
-input[type="button"],
-input[type="reset"],
-input[type="submit"] {
-  cursor: pointer;
-  -webkit-appearance: button;
-  *overflow: visible;
-}
-button[disabled],
-input[disabled] {
-  cursor: default;
-}
-input[type="checkbox"],
-input[type="radio"] {
-  box-sizing: border-box;
-  padding: 0;
-           *height: 13px;
-           *width: 13px;
-}
-input[type="search"] {
-  -webkit-appearance: textfield;
-  -moz-box-sizing: content-box;
-  -webkit-box-sizing: content-box;
-  box-sizing: content-box;
-}
-input[type="search"]::-webkit-search-decoration,
-input[type="search"]::-webkit-search-cancel-button {
-  -webkit-appearance: none;
-}
-button::-moz-focus-inner,
-input::-moz-focus-inner {
-  border: 0;
-  padding: 0;
-}
-textarea {
-  overflow: auto;
-  vertical-align: top;
-}
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
-body.pdf {
-  color: black;
-}
-body.pdf a {
-}
-body.pdf .container {
-  width: 1000px;
-  margin: 0 auto;
-  padding: 0;
-  background: none;
-  border: none;
-  border-width: 8px 0 2px 0;
-  text-align: left;
-}
-body.pdf .resume {
-  position: relative;
-  padding: 40px 80px;
-}
-body.pdf a[href$='.pdf'] {
-  display: none;
-}
-body.pdf h1 {
-  letter-spacing: 0;
-  margin-top: 0;
-  font-size: 48px;
-  text-transform: uppercase;
-  font-weight: normal;
-}
-body.pdf h2 {
-  letter-spacing: 0;
-  text-transform: uppercase;
-  font-style: italic;
-  font-weight: normal;
-}
-body.pdf h3 {
-  clear:both;
-  float: left;
-  width: 16%;
-  font-style: normal;
-}
-body.pdf h3+p {
-  float: left;
-  width: 78%;
-}
-body.pdf blockquote {
-  top: 40px;
-  right: 50px;
-  position: absolute;
-}
-body.pdf ul li {
-}
-body.pdf ul dl {
-  margin: 0;
-  padding: 0.3em 0 0;
-}
-body.pdf ul dl dt {
-  font-size: 122%;
-  font-weight: normal;
-  margin: 0 0 .75em;
-}
-body.pdf ul dl dd {
-  padding: 0 2em 0 0;
-}
-body.pdf ol {
-  float: left;
-  width: 79%;
-  margin: .7em 0 0;
-}
-body.pdf ol li {
-  margin: 0;
-}
-body.pdf ol li:nth-child(3n) {
-  width: 34%;
-}
-body.pdf ol li:nth-child(1),
-body.pdf ol li:nth-child(2),
-body.pdf ol li:nth-child(3) {
-  border-top: none;
-}
-body.pdf dl {
-  margin: .7em 0 0;
-  page-break-inside: avoid !important;
-  display: block;
-  width: 79%;
-  float: left;
-}
-body.pdf dl strong {
-  float: right;
-  margin-top: -2em;
-}
-body.pdf dl em {
-  font-size: 130%;
-  font-style: normal;
-}
-
-.clearfix {
-  zoom: 1;
-}
-.clearfix:after {
-  display: block;
-  visibility: hidden;
-  height: 0;
-  clear: both;
-  content: ".";
-}
-body {
-  font-family: 'Hoefler Text', Times New Roman, Times, serif;
-  color: #444;
-}
-h1,
-h2,
-h3,
-h4,
-ul dl dt {
-  font-family: Futura, "Century Gothic", AppleGothic, sans-serif;
-}
-.container {
-  margin: 0 auto;
-  padding: 0;
-  background: whiteSmoke;
-  border: solid #666;
-  border-width: 8px 0 2px 0;
-  text-align: left;
-}
-.resume {
-  position: relative;
-  padding: 10px 20px;
-}
-a {
-  color: #990003;
-}
-a[href$='.pdf'] {
-  display: inline-block;
-  background: #666;
-  color: white;
-  padding: 6px 12px;
-  margin-bottom: 6px;
-  text-decoration: none;
-}
-blockquote {
-  margin: 0;
-  padding: 0;
-  line-height: 1.4em;
-}
-hr {
-  display: block;
-  position: relative;
-  padding: 0;
-  margin: 18px auto;
-  width: 100%;
-  clear: both;
-  border: none;
-  border-top: 1px solid #CCC;
-  font-size: 1px;
-  line-height: 0;
-  overflow: visible;
-  page-break-after: avoid;
-}
-h1 {
-  margin: 0;
-  padding: 0;
-  font-size: 36px;
-  letter-spacing: -1px;
-  font-weight: normal;
-}
-h2 {
-  margin: .5em 0;
-  clear: both;
-  padding: 0;
-  font-size: 18px;
-  font-style: italic;
-  letter-spacing: -1px;
-  font-weight: normal;
-}
-h3 {
-  margin: 0px 20px;
-  padding: 0 0 .5em;
-  font-size: 132%;
-  font-style: italic;
-  font-weight: normal;
-}
-h3+p, h3+ul{
-  margin: .6em 0 16px;
-  padding: 0;
-  display: block;
-  font-size: 104%;
-  line-height: 24px;
-  float:left;
-    width 78%;
-}
-ul , ul li {
-  margin: 0;
-  padding: 0;
-}
-ul li ul {
-  margin-left: 1em;
-}
-ul dl {
-  margin: .3em 0 0;
-  padding: 0;
-  width: 100%;
-}
-ul dl dt {
-  font-size: 100%;
-}
-ul dl dd {
-  margin: 0 0 1em;
-  padding: 0 2em 0 0;
-  font-size: .8em;
-  line-height: 1.5em;
-}
-ol {
-  margin: 0;
-  padding: 0 0 .75em;
-  width: 84%;
-  display: inline-block;
-}
-ol li {
-  margin: 0 0 0 1em;
-  padding: 0;
-  border-top: 1px solid #CCCCCC;
-  width: 100%;
-  float: left;
-  list-style: none;
-  line-height: 24px;
-  font-size: 14px;
-}
-ol li:nth-child(1) {
-  border-top: none;
-}
-dl {
-  display: inline-block;
-  width: 78%;
-  margin: 0;
-  padding: 0;
-}
-dl dt {
-  margin: 0;
-  padding: 0;
-  font-size: 140%;
-}
-dl dd {
-  margin: 0 0 1.5em;
-  padding: 0;
-  font-size: 80%;
-  line-height: 1.4em;
-}
-dl strong {
-  display: block;
-}
-dl em {
-  display: block;
-  font-size: 110%;
-  margin: .15em 0 .5em;
-  font-style: bold;
-}
-dl+ul {
-  clear:both;
-  margin-left: 1em;
-}
-
-#footer {
-  display: none;
-}
-#footer + p {
-  width: 100%;
-  font-size: 11px;
-  text-align: center;
-}
-
-@media print {
-}
-
-  @media screen and (min-width: 37.5em) {
-    body {
-      padding: 2em 0;
-    }
-    blockquote {
-      top: 10px;
-      right: 50px;
-      position: absolute;
-    }
-    h1 {
-      margin-top: .5em;
-    }
-    ol {
-      margin: 0 0 0 1em;
-    }
-    ol li {
-      width: 50%;
-      margin: 0;
-    }
-    ol li:nth-child(1),
-    ol li:nth-child(2) {
-      border-top: none;
-    }
-  }
-  @media screen and (min-width: 57em) {
-    .container {
-      width: 912px;
-    }
-    .resume {
-      position: relative;
-      padding: 40px 50px;
-    }
-    blockquote {
-      top: 40px;
-      right: 50px;
-      position: absolute;
-    }
-    h1 {
-      margin-top: 0;
-      font-size: 48px;
-      text-transform: uppercase;
-      letter-spacing: 3px;
-      font-weight: normal;
-    }
-    h2 {
-      text-transform: uppercase;
-      font-style: italic;
-      letter-spacing: 2px;
-      font-weight: normal;
-    }
-    h3 {
-      float: left;
-      width: 16%;
-      clear:both;
-    }
-    h3+p, h3+ul {
-      float: left;
-      width: 78%;
-    }
-    ul li {
-    }
-    ul dl dt {
-      font-size: 122%;
-      font-weight: normal;
-      margin-bottom: .75em;
-    }
-    ul dl dd {
-      padding: 0 2em 0 0;
-    }
-    ol {
-      float: left;
-      width: 79%;
-      margin: .6em 0 0;
-    }
-    ol li {
-      width: 33%;
-      margin: 0;
-    }
-    ol li:nth-child(3n) {
-      width: 34%;
-    }
-    ol li:nth-child(1),
-    ol li:nth-child(2),
-    ol li:nth-child(3) {
-      border-top: none;
-    }
-    dl {
-      margin: .5em 0 0;
-    }
-    dl strong {
-      float: right;
-      margin-top: -2em;
-    }
-    dl em {
-      font-size: 130%;
-      font-style: normal;
-    }
-  }
-
-    </style>
   </head>
   <body class="pdf">
 
     <div class="container">
       <div class="resume">
-        <h1>Josh Beauregard</h1>
-        <!-- <h2>DevOps Engeneer</h2> -->
+        <header>
+          <h1>Josh Beauregard</h1>
+          <!-- <h2>DevOps Engeneer</h2> -->
 
-        <blockquote>
-          <!-- <a href="resume.pdf">Download PDF</a><br/> -->
-          <a href="mailto:josh.beaureg@gmail.com">josh.beaureg@gmail.com</a><br />
-          <a href="tel:4136953606">(413) 695-3606</a>
-        </blockquote>
+          <blockquote>
+            <!-- <a href="resume.pdf">Download PDF</a><br/> -->
+            <a href="mailto:josh.beaureg@gmail.com">josh.beaureg@gmail.com</a><br />
+            <a href="tel:4136953606">(413) 695-3606</a>
+            <a href="https://github.com/sanguis">Github</a></li>
+          </blockquote>
+        </header>
+        <h2>Summary</h2>
+        <p>Devops Consultant for Harvard Information Technology, Academic Technical, department.
+        <p>DevOps Department Head and creator for the past 4 years. Created tools to make developers&#8217; work-flow more efficient by eliminating repetitive tasks. Created test driven development automation software.</p>
+        <p>Wrote company development guidelines. Tuned applications servers to be in 90th percentile speed wise.Technical educator and liaison between developers and project manages as needed.</p>
+        <h2>Previous Technical Role</h2>
+        <p>Web applications Developer with over 19 years of web application development experience. Experienced in Drupal versions 4.6 - 8 development including custom module development. Hands on experience in every part of the Software Development Life Cycle including: scope building, wire frames, design, theme integration, front and back end, web/mobile application development, server building, tuning and long term administration including down time rescuing. Effective problem solver who works with users and managers to accomplish goals.</p>
+        <hr />
+
+        <h2 id="skills">Skills</h2>
+
+        <h3>Continuous Integration</h3>
+
+        <p>Jenkins (and even Hudson), TravisCI</p>
+        <h3>Configuration managment</h3>
+        <p>Ansible, Chef, Puppet</p>
+        <h3>Stack Management</h3>
+        <p>Terraform, AWS Cloud Formation</p>
+        <h3>Intergration Testing</h3>
+        <p>ServerSpec, Cucumber/Behat</p>
+        <h3>Vitalization,Containers</h3>
+        <p>Docker, Vagrant<>
+        <h3>Other Software</h3>
+        <p>Nginx, Apache, Behat, Git, Subversion, Bazaar, CVS, Drupal, WordPress, node.js, Ruby on the Rails, MySQL, Mongo DB.</p>
+
+        <h3>Languages</h3>
+
+        <p>PHP, Ruby, Shell scripting, Python, HTML,XHTML, HTML5 CSS/SASS/LESS JavaScript, jQuery.</p>
+
+        <h3>Cloud Vendors</h3>
+
+        <p>AWS, Digital Ocean, Rackspace, Linode.</p>
+        <h3>Operating Systems</h3>
+
+        <p>Linux, Mac OS X.x, Windows (cygwin)</p>
 
         <hr />
 
         <h2 id="portfolio">Portfolio</h2>
 
+        <h3>Application Servers</h3>
+
+        <p>Shared, managed Omeka hosting cluster for Harvard DiTF and Library Departmentis. <a href="http://www.ezesoft.com/">Ezesoft</a>, <a href="http://www.cornerstonesoftware.com/">Cornerstone Software,</a> <a href="https://www.pistonapp.com/">Piston</a>, <a href="https://www.knectar.com/">Knectar</a>, <a href="http://www.citisoft.com/">Citisoft</a>, <a href="http://forsyth.org/">Forsyth Institute</a>, <a href="http://www.schoolsforchildreninc.org/">Schools For Children Inc</a>, <a href="https://www.massenergy.org/">Mass Energy</a>/<a href="https://www.ripower.org">Rhode Island Power</a>, <a href="http://www.juxtapid.com/">Juxtapid</a>, Anheuser-Busch Inbev TapWiser app server</p>
         <h3>Website Applications Contributed To</h3>
 
         <p><a href="https://sysbio.med.harvard.edu/">HMS Systems Biology Department</a>, <a href="https://www.aier.org/">AIER</a>, <a href="http://penguingiftshop.com/">The Penguin Place</a>, <a href="http://beer-winemaking.com/">Beer Wine Making</a>, <a href="http://speakingofspringfield.com/">Speaking of Springfield</a>, <a href="http://www.knectar.com/">Knectar.com</a>, <a href="http://medicinehunter.com/">medicinehunter.com</a> <a href="http://riverbendanimal.com/">Riverbend Animal Hospital</a> <a href="http://jackdaniels.com">Jack Daniels</a>, <a href="http://www.schoolsforchildreninc.org/">Schools For Children</a>/<a href="http://www.dearbornacademy.org/">Dearborn Academy</a>/<a href="http://www.seaportacademy.org/">Seaport Academy</a>/<a href="http://www.lesleyellis.org/">Leslie Ellis</a> (Drupal multi Site), <a href="http://www.masscharterschools.org/">Mass Charter Schools</a>, <a href="https://www.massenergy.org/">Mass Energy</a>/<a href="https://www.ripower.org">Rhode Island Power</a> (Drupal multi site), <a href="http://www.umass.edu/hfa/academics/departments">Umass Humanities and Fine Arts department sites</a> (Drupal, Domain Access), <a href="http://theglobalissue.com/">The Global Issue</a>, <a href="http://www.crocker.com/">Crocker Communications</a>, <a href="http://deshpande.mit.edu/">MIT Deshpande Center</a>, <a href="http://kavli.columbia.edu/">Kavli Institute at Columbia</a></p>
-
-        <h3>Application Servers</h3>
-
-        <p>Shared, managed Omeka hosting server for Harvard DiTF department. <a href="http://www.ezesoft.com/">Ezesoft</a>, <a href="http://www.cornerstonesoftware.com/">Cornerstone Software,</a> <a href="https://www.pistonapp.com/">Piston</a>, <a href="https://www.knectar.com/">Knectar</a>, <a href="http://www.citisoft.com/">Citisoft</a>, <a href="http://forsyth.org/">Forsyth Institute</a>, <a href="http://www.schoolsforchildreninc.org/">Schools For Children Inc</a>, <a href="https://www.massenergy.org/">Mass Energy</a>/<a href="https://www.ripower.org">Rhode Island Power</a>, <a href="http://www.juxtapid.com/">Juxtapid</a>, Anheuser-Busch Inbev TapWiser app server</p>
-
-        <h3>Code samples</h3>
-
-        <ul>
-          <li><a href="https://github.com/sanguis">Github account</a></li>
-          <li><a href="https://drupal.org/user/99947">drupal.org profile account</a></li>
-        </ul>
 
         <h2>Publications</h2>
 
@@ -657,36 +83,6 @@ dl+ul {
         </ul>
 
         <hr />
-
-        <h2 id="skills">Skills</h2>
-
-        <h3>Methodologies</h3>
-
-        <p>Agile, Waterfall</p>
-
-        <h3>Software</h3>
-
-        <p>Nginx, Apache, Chef, Puppet, Behat, Docker, Vagrant, Git, Subversion, Bazaar, CVS, Drupal, WordPress, node.js, Ruby on the Rails, MySQL, Mongo DB.</p>
-
-        <h3>Languages</h3>
-
-        <p>PHP, Ruby, Shell scripting, HTML,XHTML, HTML5 CSS/SASS/LESS JavaScript, jQuery.</p>
-
-        <h3>Operating Systems</h3>
-
-        <p>Linux, Mac OS X.x, Windows (cygwin)</p>
-
-        <h3>Cloud Vendors</h3>
-
-        <p>AWS, Digital Ocean, Rackspace, Linode.</p>
-
-        <hr />
-
-        <h2>Summary</h2>
-        <p>DevOps Department Head and creator for the past 4 years. Created tools to make developers&#8217; work-flow more efficient by eliminating repetitive tasks. Created test driven development automation software.</p>
-        <p>Wrote company development guidelines. Tuned applications servers to be in 90th percentile speed wise.Technical educator and liaison between developers and project manages as needed.</p>
-        <p>Senior Drupal Developer with over 19 years of web application development experience. Experienced in Drupal versions 4.6 - 8 development including custom module development. Hands on experience in every part of the Software Development Life Cycle including: scope building, wire frames, design, theme integration, front and back end, web/mobile application development, server building, tuning and long term administration including down time rescuing. Effective problem solver who works with users and managers to accomplish goals.</p>
-        <hr>
 
         <h2>Experience</h2>
         <dl>
