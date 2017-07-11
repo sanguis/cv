@@ -1,0 +1,15 @@
+Hi,
+
+Enclosed please find my resume for your review. I am applying for the Senior DevOps Engineer position. I know that I would be a great fit for TJX and would be able to contribute immediately.
+
+I am very interested in becoming a part of your team. Your facility would gain an individual who is dependable, motivated, and personable. 
+My many experiences ensure that I am an individual who knows how to accomplish tasks and work in a team dynamic. In my prior job, I worked as a Senior DevOps Technical and Cultural Engineer, required that I coach team members in automation theory, extreme programming.
+
+We released a scalable Docker Data Center swarm on AWS and VMWare.
+
+I would appreciate the opportunity to discuss my credentials with you at a mutually convenient time. If you have any questions or would like more information about my qualifications, please feel free to call me at  or email me at josh.beaureg@gmail.com. Thank you for your consideration.
+
+Respectfully,
+
+Josh Beauregard
+
