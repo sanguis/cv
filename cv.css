@@ -476,6 +476,10 @@ dl+ul {
   clear:both;
   margin-left: 1em;
 }
+.experience_description {
+    clear: both;
+    margin-left: 2em;
+}
 
 #footer {
   display: none;
